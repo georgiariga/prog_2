@@ -69,7 +69,7 @@ def main():
 	plt.xlabel("n")
 	plt.ylabel("sec")
 	plt.savefig('figure')
-	plt.show()
+#	plt.show()
  #------------------------------------------------------------------------------------------------
 	#Time calculation for pure Python [20, 30]
 
@@ -93,7 +93,7 @@ def main():
 	plt.xlabel("n")
 	plt.ylabel("sec")
 	plt.savefig('figure1')
-	plt.show()
+#	plt.show()
 #------------------------------------------------------------------------------------------------
 
     #Time calculation for C++ fib(47)
@@ -111,10 +111,10 @@ def main():
 	end = time.perf_counter()
 	print("Execution time for Numba:" + str(end - start))
 
-#Fibonucci 47 for C++:-1323752223
-#Execution time for C++:47.36727203207556
-#Fibonucci 47 for Numba:2971215073
-#Execution time for Numba:47.47253115091007  
+# Fib(47) for C++:-1323752223
+# Execution time for C++:47.36727203207556
+# Fib(47) for Numba:2971215073
+# Execution time for Numba:47.47253115091007  
 
 # True price: 1836311903
 
